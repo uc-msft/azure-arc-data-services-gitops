@@ -9,7 +9,7 @@ spec:
   requests:
     vcores: 2
   service:
-    type: NodePort
+    type: LoadBalancer
   storage:
     data:
       className: default
