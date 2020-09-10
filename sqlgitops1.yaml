@@ -5,7 +5,7 @@ data:
 kind: Secret
 metadata:
   name: sqlgitops1-login-secret
-  namespace: arc
+  namespace: azure-arc-data
 type: Opaque
 ---
 apiVersion: sql.arcdata.microsoft.com/v1alpha1
