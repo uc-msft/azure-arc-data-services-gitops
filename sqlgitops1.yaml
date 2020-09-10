@@ -19,11 +19,11 @@ spec:
   requests:
     vcores: 2
   service:
-    type: LoadBalancer
+    type: NodePort
   storage:
     data:
-      className: default
-      size: 5Gi
+      className: local-storage-data
+      size: 100Gi
     logs:
-      className: default
+      className: local-storage-logs
       size: 5Gi
