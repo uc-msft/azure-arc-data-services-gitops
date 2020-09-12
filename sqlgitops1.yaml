@@ -12,7 +12,7 @@ apiVersion: sql.arcdata.microsoft.com/v1alpha1
 kind: sqlmanagedinstance
 metadata:
   name: sqlgitops1
-  namespace: arc
+  namespace: azure-arc-data
 spec:
   limits:
     vcores: 4
