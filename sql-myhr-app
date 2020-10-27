@@ -18,6 +18,7 @@ spec:
     vcores: 4
   requests:
     vcores: 4
+    memory: 16
   service:
     type: NodePort
   storage:
